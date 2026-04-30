@@ -24,4 +24,16 @@ public class TicTacToeTest{
         assertEquals('O', game.getCurrentPlayer());
 
     }
+
+    @Test
+    void takenSquare(){
+        TicTacToe game = new TicTacToe();
+
+        game.play(0, 0);
+
+        assertThrows(IllegalArgumentException.class, () -> {
+            game.play(0, 0);
+        });
+
+    }
 }
