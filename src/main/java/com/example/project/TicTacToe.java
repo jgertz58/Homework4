@@ -9,7 +9,7 @@ public class TicTacToe{
         return currentPlayer;
     }
 
-    public void play(int row, int col){
+    /*public void play(int row, int col){
         if (board[row][col] != '\0') {
             throw new IllegalArgumentException("Square is Taken");
         }
@@ -20,6 +20,8 @@ public class TicTacToe{
         } else {
             currentPlayer = 'X';
         }
-    }
+    }*/
+
+    
 
 }
