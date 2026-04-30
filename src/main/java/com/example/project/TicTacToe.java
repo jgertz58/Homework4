@@ -9,7 +9,11 @@ public class TicTacToe{
     }
 
     public void play(int row, int col){
-        currentPlayer = 'O';
+        if (currentPlayer == 'X'){
+            currentPlayer = 'O';
+        } else {
+            currentPlayer = 'X';
+        }
     }
 
 }

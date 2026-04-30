@@ -16,12 +16,12 @@ public class TicTacToeTest{
         assertEquals('X', game.getCurrentPlayer());
     }
 
-    /*@Test
+    @Test
     void turnChanges(){
         TicTacToe game = new TicTacToe();
 
         game.play(0, 0);
         assertEquals('O', game.getCurrentPlayer());
 
-    }*/
+    }
 }
