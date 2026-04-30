@@ -2,10 +2,14 @@ package com.example.project;
 
 public class TicTacToe{
 
-    private char currentplayer = 'X';
+    private char currentPlayer = 'X';
 
     public char getCurrentPlayer(){
-        return currentplayer;
+        return currentPlayer;
+    }
+
+    public void play(int row, int col){
+        currentPlayer = 'O';
     }
 
 }
